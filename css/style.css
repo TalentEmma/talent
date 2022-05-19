@@ -1301,7 +1301,10 @@ footer a{
 
   /*=======Home section=======*/
   .home .home-container{
-    display: grid;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
   }
 
   .home-container .home-img{
@@ -1309,12 +1312,12 @@ footer a{
   }
 
   .home-container .home-img img{
-    width: 65%;
+    width: 50%;
     transform: translate(80px, -180px);
   }
 
   .home .home-container .info{
-    font-size: 0.8rem;
+    font-size: 0.4rem;
   }
   
   .media-icons{
